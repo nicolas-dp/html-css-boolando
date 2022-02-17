@@ -6,6 +6,8 @@
 
 body {
     background: rgb(252, 252, 252);
+    margin-left: 15%;
+
 }
 
 /* Dimensionamento img */
@@ -13,22 +15,30 @@ body {
 img {
     width: 360px;
     height: 521px;
-  }
+
+}
+
+.size {
+    display: inline-block;
+
+
+}
+
 
 /* Inizializzazione pagina */
 
 .products {
-    width: 1000px;
+    width: 1400px;
     margin: 2rem auto;
-    
+
 }
 
 .product {
     display: inline-block;
     position: relative;
-    margin: 1rem;
+    margin: 0.5rem;
     text-align: center;
-} 
+}
 
 /* Posizionamento cuore
   ******************* */
@@ -109,11 +119,11 @@ img {
 }
 
 /* Allineamento parte TESTUALE DESCRIZIONE 
-
 **********/
 
-.align {
-    padding-left: 20px;
+.txt_align {
+    padding-left: 10px;
+    width: 68%;
 }
 
 
