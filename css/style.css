@@ -2,57 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     background: rgb(252, 252, 252);
-  }
-  
+}
+
 
 /* Inizializzazione pagina */
 
-  .products {
-    width: 1200px;
+.products {
+    width: 1000px;
     margin: 2rem auto;
-    text-align: center;
-  }
 
-  .product {
+}
+
+.product {
     display: inline-block;
     position: relative;
     margin: 1rem;
-  }
+    text-align: center;
+}
 
-  /* Posizionamento cuore
+/* Posizionamento cuore
   ******************* */
-  .badge_top {
+.badge_top {
     width: 50px;
     height: 50px;
-    padding: 2px;
     font-size: 2rem;
     position: absolute;
     top: 20px;
     right: 0px;
     padding: 5px;
-  }
+}
 
-  /* Colore sfondo cuore
+/* Colore sfondo cuore
   ******************* */
-  .bg_heart{
-      background-color: rgb(252, 252, 252);
-  }
+.bg_heart {
+    background-color: rgb(252, 252, 252);
+}
 
-  /* Colore sconto 50% 30%
+/* Colore sconto 50% 30%
   ******************* */
-  .bg_red{
-      background-color: rgb(235, 0, 55);
-      color: rgb(252, 252, 252);
-  }
+.bg_red {
+    background-color: rgb(235, 0, 55);
+    color: rgb(252, 252, 252);
+}
 
-  /* Posizionamento sconto
+/* Posizionamento sconto
   ******************* */
-  .badge_down{
-    display: inline-block;
+.badge_down {
     width: 47px;
     height: 28px;
     font-size: 1rem;
@@ -60,9 +59,11 @@
     bottom: 25px;
     left: 0px;
     padding: 5px;
-  }
+}
 
-  .sostenibile{
+/* Posizionamento tag sostenibile green
+  ******************* */
+.sostenibile {
     width: 95px;
     height: 28px;
     font-size: 1rem;
@@ -70,11 +71,28 @@
     bottom: 25px;
     left: 51px;
     padding: 5px;
-  } 
+}
 
-  .bg_green{
-        background-color: rgb(0, 135, 90);
-        color: rgb(252, 252, 252);
-  }
+/* Colore tag sostenibile green
+  ******************* */
+.bg_green {
+    background-color: rgb(0, 135, 90);
+    color: rgb(252, 252, 252);
+}
 
- 
+
+.promo {
+    display: inline-block;
+    color: rgb(255, 0, 0);
+}
+
+.scount{
+    display:inline-block;
+    text-decoration: line-through;
+}
+
+/* Allineamento parte TESTUALE DESCRIZIONE */
+
+.align {
+    padding-left: 20px;
+}
