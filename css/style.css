@@ -104,19 +104,18 @@ body {
 /* Cambio immagione al passaggio del mouse 
 *******************/
 
-.immagine1{
+.immagine1 {
     display: block;
 }
 
-.immagine2{
+.immagine2 {
     display: none;
 }
 
-#cambioimmagine:hover .immagine1 {
+.magic:hover .immagine1 {
     display: none;
 }
-#cambioimmagine:hover .immagine2 {
+
+.magic:hover .immagine2 {
     display: block;
 }
-
-
