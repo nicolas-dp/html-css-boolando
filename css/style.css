@@ -8,12 +8,19 @@ body {
     background: rgb(252, 252, 252);
 }
 
+/* Dimensionamento img */
+
+img {
+    width: 360px;
+    height: 521px;
+  }
+
 /* Inizializzazione pagina */
 
 .products {
     width: 1000px;
     margin: 2rem auto;
-
+    
 }
 
 .product {
@@ -21,7 +28,7 @@ body {
     position: relative;
     margin: 1rem;
     text-align: center;
-}
+} 
 
 /* Posizionamento cuore
   ******************* */
@@ -70,6 +77,16 @@ body {
     bottom: 25px;
     left: 51px;
     padding: 5px;
+}
+
+.only_sostenibile {
+    width: 95px;
+    height: 28px;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 25px;
+    padding: 5px;
+
 }
 
 /* Colore tag sostenibile green
