@@ -6,8 +6,6 @@
 
 body {
     background: rgb(252, 252, 252);
-
-
 }
 
 header {
@@ -17,12 +15,12 @@ header {
     text-align: center;
 }
 
-header > h1{
+header>h1 {
     font-size: 10rem;
 }
 
 
-.home, .contatti, .chi{
+.home, .contatti, .chi {
     display: inline-block;
     margin: 20px;
     color: white;
@@ -37,11 +35,10 @@ header > h1{
     display: inline-block;
     background-color: #5e5e5e6e;
 }
-}
+
 
 img {
     max-width: 100%;
-
 }
 
 .size {
@@ -55,7 +52,7 @@ img {
 .products {
     width: 1400px;
     margin: 2rem auto;
-
+    margin-left: 20%;
 }
 
 .product {
@@ -179,11 +176,13 @@ img {
     border-radius: 15rem;
     padding: 4px;
 }
+
 .contatti:hover {
     background-color: rgba(64, 136, 218, 0.589);
     border-radius: 15rem;
     padding: 4px;
 }
+
 .chi:hover {
     background-color: rgba(64, 136, 218, 0.589);
     border-radius: 15rem;
